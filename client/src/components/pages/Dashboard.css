@@ -1,0 +1,131 @@
+.error {
+  display: none;
+  width: 80%;
+  margin: auto;
+  color: #df2e38;
+  margin-top: -20px;
+}
+
+input[aria-invalid="true"] {
+  border-bottom: 2px solid #df2e38;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.modal-content {
+  position: relative;
+  background-color: #c7e8ca;
+  border-radius: 35px;
+  box-shadow: 0 0 25px -8px #1a4d17;
+  margin: 15% auto;
+  margin-top: 15vh;
+  padding: 20px;
+  border: none;
+  width: clamp(800px, 90%, 520px);
+  height: clamp(550px, 0%, 400px);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+span {
+  display: block;
+  text-align: center;
+  color: #253e24;
+  width: 100%;
+  padding-bottom: 24px;
+}
+
+#smile {
+  font-size: 80px;
+  margin-top: -15px;
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(-10px);
+  }
+  20% {
+    transform: translateX(10px);
+  }
+  40% {
+    transform: translateX(-10px);
+  }
+  60% {
+    transform: translateX(10px);
+  }
+  80% {
+    transform: translateX(0px);
+  }
+}
+.description {
+  font-size: 45px;
+  color: #14352f;
+  font-weight: 750;
+  display: flex;
+  align-items: center;
+
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 0;
+}
+.button {
+  background-color: #2c786c;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  width: 10%;
+  height: auto;
+  display: inline-block;
+  text-align: center;
+
+  margin: 10px 0px;
+  padding: 5px;
+  text-decoration: none;
+}
+.Content {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  font-size: 25px;
+  font-weight: 500;
+}
+.loginDiv {
+  position: relative;
+  margin: auto;
+  margin-top: 18vh;
+  width: clamp(800px, 90%, 520px);
+  height: clamp(550px, 0%, 400px);
+  background-color: #c7e8ca;
+  border-radius: 35px;
+  box-sizing: content-box;
+  box-shadow: 0 0 20px -8px #4a7d47;
+}
+.file {
+  font-size: 24px;
+  background-color: #2b3d27;
+  border: none;
+  margin: 20px;
+  border-radius: 5px;
+}
+.containerP {
+  background-color: #24483f;
+  color: white;
+  display: block;
+  /* align-content: center; */
+  align-content: center;
+  margin: 20px;
+  padding: 10px 20px;
+  border-radius: 15px;
+}
